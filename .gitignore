@@ -1,4 +1,20 @@
+# Terraform
 .terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.pem
+.DS_Store
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH Keys
+*.pem
+*.key.terraform/
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
